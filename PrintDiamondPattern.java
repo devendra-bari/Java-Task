@@ -37,6 +37,6 @@ public class PrintDiamondPattern
             }
             System.out.println("");
         }
-		System.out.print("\n\n");
+	System.out.print("\n\n");
     }
 }
