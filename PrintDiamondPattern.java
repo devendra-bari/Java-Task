@@ -4,7 +4,8 @@ public class PrintDiamondPattern
     public static void main(String args[])
     {
         int n, i, j, space = 1;
-        System.out.print("Enter the number of rows: ");
+	System.out.println("To print the DIAMOND PATTERN,\n");
+        System.out.print("Enter the number of rows : ");
         Scanner s = new Scanner(System.in);
         n = s.nextInt();
         System.out.print("\n\n");
