@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class PermutationCombinationOfGiven2No
 {
-    public static int fact(int num){
+    public static int fact(int num)
+    {
         int fact=1, i;
         for(i=1; i<=num; i++){
             fact = fact*i;
