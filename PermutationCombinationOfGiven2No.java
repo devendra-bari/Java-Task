@@ -13,13 +13,13 @@ public class PermutationCombinationOfGiven2No
         int n, r;
         Scanner scanner = new Scanner(System.in);
         System.out.println("\n\t\t PERMUTATION COMBINATION PROGRAM\n");
- 		System.out.println("\n==============================================================\n");
+ 	System.out.println("\n==============================================================\n");
 
         System.out.print("\t\tEnter Value of n : ");
         n = scanner.nextInt();
         System.out.print("\t\tEnter Value of r : ");
         r = scanner.nextInt();
-		System.out.println("\n==============================================================\n");
+	System.out.println("\n==============================================================\n");
 
         System.out.print("\t\t\tNCR is " +(fact(n)/(fact(n-r)*fact(r))));
         System.out.print("\n\t\t\tNPR is " +(fact(n)/(fact(n-r))));
