@@ -9,7 +9,8 @@ public class PermutationCombinationOfGiven2No
         }
         return fact;
     }
-    public static void main(String args[]){
+    public static void main(String args[])
+    {
         int n, r;
         Scanner scanner = new Scanner(System.in);
         System.out.println("\n\t\t PERMUTATION COMBINATION PROGRAM\n");
