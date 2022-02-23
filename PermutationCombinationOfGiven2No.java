@@ -1,5 +1,5 @@
 import java.util.Scanner;
- 
+
 public class PermutationCombinationOfGiven2No
 {
     public static int fact(int num){
@@ -12,13 +12,18 @@ public class PermutationCombinationOfGiven2No
     public static void main(String args[]){
         int n, r;
         Scanner scanner = new Scanner(System.in);
- 
-        System.out.print("Enter Value of n : ");
+        System.out.println("\n\t\t PERMUTATION COMBINATION PROGRAM\n");
+ 		System.out.println("\n==============================================================\n");
+
+        System.out.print("\t\tEnter Value of n : ");
         n = scanner.nextInt();
-        System.out.print("Enter Value of r : ");
+        System.out.print("\t\tEnter Value of r : ");
         r = scanner.nextInt();
- 
-        System.out.print("NCR is " +(fact(n)/(fact(n-r)*fact(r))));
-        System.out.print("\nNPR is " +(fact(n)/(fact(n-r))));
+		System.out.println("\n==============================================================\n");
+
+        System.out.print("\t\t\tNCR is " +(fact(n)/(fact(n-r)*fact(r))));
+        System.out.print("\n\t\t\tNPR is " +(fact(n)/(fact(n-r))));
+      	System.out.println("\n==============================================================\n");
+
     }
 }
