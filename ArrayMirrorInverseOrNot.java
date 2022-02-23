@@ -29,7 +29,7 @@ class ArrayMirrorInverseOrNot
 
         if (isMirrInv(arr))
                 System.out.println("\n\n ==>\tGiven Array is Mirror Inverse!!\n\n");
-            else
-                System.out.println("\n\n ==>\tGiven Array is NOT Mirror Inverse!!\n\n");
-        }
+        else
+            System.out.println("\n\n ==>\tGiven Array is NOT Mirror Inverse!!\n\n");
+    }
 }
